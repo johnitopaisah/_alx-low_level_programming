@@ -1,0 +1,3 @@
+#!/bin/bash
+export CFILE=main.c
+gcc -S -masm=att $CFILE -o _main.s
